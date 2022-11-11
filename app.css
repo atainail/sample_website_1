@@ -1,0 +1,78 @@
+body {
+    background-image: linear-gradient(to bottom right, purple, rgb(118, 118, 204));
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-collapse .nav-link {
+    color:rgb(29, 41, 209);
+
+}
+
+.navbar-light .navbar-brand {
+    color:rgb(118, 118, 203);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover{
+    text-shadow: 1.5px 1.5px black;
+    color:rgb(118, 118, 203);
+}
+
+.bodyText {
+    font-size: .85em;
+    padding: 2em 2em;
+}
+
+
+/* Credits to https://www.cssscript.com/fade-in-out-on-scroll/ */
+.scrollFade {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .scrollFade--visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--animate {
+    transition: opacity 0.4s ease-in-out;
+  }
+/* Credits End */
+
+.navbar{
+    background-color: lavender; 
+    opacity: 50%;
+    transition: opacity .5s;
+    font-size: .8em;
+}
+
+#searchButton {
+    background-color: blueviolet;
+}
+
+.navbar:hover, .navbar.navScroll:hover{
+    opacity: 100%;
+}
+
+.navbar.navScroll{
+    opacity: 80%;
+
+}
+
+.dropdown-menu {
+    background-color: rgb(207, 97, 221);
+}
+
+
+@media screen and (min-width: 960px) {
+    .bodyText {
+        font-size: 1.2em;
+    }
+}
+
+  
