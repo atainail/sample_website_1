@@ -16,8 +16,8 @@ body {
 }
 
 .navbar-light .navbar-brand:hover{
-    text-shadow: 1.5px 1.5px black;
-    color:rgb(118, 118, 203);
+/*     text-shadow: 1.5px 1.5px black;
+    color:rgb(118, 118, 203); */
 }
 
 .bodyText {
